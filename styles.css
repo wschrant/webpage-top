@@ -88,51 +88,29 @@
 .info-container{
     background-color: #fff;
     padding: 20px 0;
-    display: flex;
-    justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
 }
 .info{
     width: 1100px;
     height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: 20px;
 }
 .infoheader{
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
+}
+.info-boxes{
+    color: #1F2937;
+    font-size: 14px;
     display: flex;
-    justify-content: center;
 }
-.info .infoboxes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.box1 {
+.box {
     width: 50px;
     height: 50px;
     padding: 50px;
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
 }
-.box2 {
-    width: 50px;
-    height: 50px;
-    padding: 50px;
-    border: 2px solid #3882F6;
-}
-.box3 {
-    width: 50px;
-    height: 50px;
-    padding: 50px;
-    border: 2px solid #3882F6;
-}
-.box4 {
-    width: 50px;
-    height: 50px;
-    padding: 50px;
-    border: 2px solid #3882F6;
-}
+
 
